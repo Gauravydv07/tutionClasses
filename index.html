@@ -1,0 +1,528 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rathore Extra Classes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- ------------------------>
+    <!-- TOP BAR -->
+    <!-- ---------------------- -->
+    <div class="top-bar">
+        <a href="tel:+919625145845" class="contact-box">
+            <img src="/assets/talk_with_us-removebg.png" class="icon1">
+            <div class="text-block">
+                <span class="label">Talk with us</span>
+                <span class="value">+91 9625145845</span>
+            </div>
+        </a>
+
+        <a href="mailto:rathoreprince488@gmail.com" class="contact-box">
+            <img src="/assets/email_us logo.png" class="icon1">
+            <div class="text-block">
+                <span class="label">Mail Us</span>
+                <span class="value">rathoreprince488@gmail.com</span>
+            </div>
+        </a>
+
+
+
+        <div class="right-links">
+            <a href="#">Enroll now</a> |
+            <a href="#">Login</a>
+        </div>
+
+    </div>
+
+
+    <!-- NAVBAR -->
+
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="/assets/RathoreExtraClassesLogo-removebg-preview.png">
+            <span>RATHORE<br><small>EXTRA CLASSES</small></span>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+        <ul class="nav-links" id="menu" >
+            <li><a href="#menu">Home</a></li>
+            <li><a href="#courses">Courses ▼</a></li>
+            <li><a href="#location">Location ▼</a></li>
+            <li><a href="#contact">Contact ▼</a></li>
+            <li><a href="#">More ▼</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-section" id="slider">
+        <div class="hero">
+            <img id="pic" class="pic"
+                src="assets\slider1 img.jpg"
+                alt="Slider image">
+        </div>
+
+        <!-- centered caption -->
+        <div class="caption-wrap" aria-live="polite">
+            <h2 id="caption" class="caption">Autumn's golden hush</h2>
+            <p id="subline" class="subline">Leaves dance softly as daylight fades.</p>
+        </div>
+
+        <!-- buttons -->
+        <button class="btn btn1" onclick="prev()" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="btn btn2" onclick="next()" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+
+
+    <!-- <h1>A Platform Trusted by Students</h1> -->
+
+    <div class="trusted-card">
+
+        <div class="cards c1">
+            <h2>10000+</h2>
+            <p>Happy Students</p>
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/2922/2922562.png">
+        </div>
+
+        <div class="cards c2">
+            <h2>2000+</h2>
+            <p>Mock Tests</p>
+            <img class="icon" src="assets\mock test.png">
+        </div>
+
+        <div class="cards c3">
+            <h2>100+</h2>
+            <p>Video Lectures</p>
+            <img class="icon" src="assets\video_lecture.png">
+        </div>
+
+        <div class="cards c4">
+            <h2>1000+</h2>
+            <p>Practice Papers</p>
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png">
+        </div>
+
+    </div>
+
+
+
+    <div class="section about-us">
+
+        <div class="left">
+            <img src="/assets/dots-removebg-preview.png" class="dots-left">
+            <img src="/assets/dots_2-removebg-preview.png" class="dots-right">
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/G2_n4neFRcE" allowfullscreen></iframe>
+            </div>
+            <br><br>
+            <img src="assets\about us img.jpg" class="rocket">
+
+            <div class="enroll-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png">
+                <div>
+                    <h3>10K+</h3>
+                    <p>Enrolled Learners</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>ABOUT US</h1>
+            <h1><span class="highlight">Quality Education</span><br> Taught with Dedication</h1>
+
+            <p>
+                Rathore Extra Classes offers expert coaching for students of all grades.
+                We focus on concept clarity, personal attention, and exam success.
+            </p>
+
+            <div class="checklist">
+                <span><b class="tick">✔</b> Expert Trainers</span><br>
+                <span><b class="tick">✔</b> Regular Test & performance Tracking</span><br>
+                <span><b class="tick">✔</b> Quality Doubt Clearing</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="faculties">
+        <div class="faculties-content">
+            <div class="text-section">
+                <h1>Gurugram <span class="highlight">Trusted & Affordable</span><br>Educational Platform</h1>
+                <p class="subtext">
+                    Unlock your potential by signing up with Rathore ExtraClasses —<br>
+                    The most affordable learning solution
+                </p>
+                <button class="cta-btn">Get Started</button>
+            </div>
+            <div class="image-section">
+                <div class="teacher">
+                    <img src="assets/prince sir.jpeg" alt="Teacher">
+                    <div class="bubble teacher-bubble">
+                        Rathore ExtraClasses is where students learn with love and can grow with guidance
+                    </div>
+                </div>
+                <div class="student">
+                    <img src="assets\pic\review 1.jpg" alt="Student" style="padding: 10px;">
+                    <div class="bubble student-bubble">
+                        Prince Sir, What is Rathore
+                        ExtraClasses?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="custom-courses" id="courses">
+  <div class="courses-wrapper">
+    <h2>Discover <span>Courses</span></h2>
+
+    <div class="course-list">
+
+      <div class="course-card card-language">
+        <div class="course-left">
+          <div class="course-level">Below 10th Class</div>
+          <div class="course-title">Class 6<sup>th</sup> to 9<sup>th</sup></div>
+          <ul class="course-desc">
+            <li>English</li><li>Hindi</li><li>Mathematics</li>
+            <li>Social Science</li><li>Science</li>
+          </ul>
+          <span class="course-btn">Explore Now</span>
+        </div>
+        <div class="course-right">
+          <div class="course-img">
+            <img src="assets\classes 6th to 9th.jpeg">
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card card-iit">
+        <div class="course-left">
+          <div class="course-level">All Boards</div>
+          <div class="course-title">Class 10<sup>th</sup></div>
+          <ul class="course-desc">
+            <li>Mathematics</li><li>Science</li>
+            <li>Social Science</li><li>English</li>
+          </ul>
+          <span class="course-btn">Explore Now</span>
+        </div>
+        <div class="course-right">
+          <div class="course-img">
+            <img src="assets\class 10th.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card card-coding">
+        <div class="course-left">
+          <div class="course-level">Commerce Students</div>
+          <div class="course-title">Class 11<sup>th</sup> & 12<sup>th</sup></div>
+          <ul class="course-desc">
+            <li>Accountancy</li><li>Business Studies</li>
+            <li>Economics</li><li>Mathematics</li><li>English</li>
+          </ul>
+          <span class="course-btn">Explore Now</span>
+        </div>
+        <div class="course-right">
+          <div class="course-img">
+            <img src="assets\commerce class11-12.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card card-curricular">
+        <div class="course-left">
+          <div class="course-level">Science Students</div>
+          <div class="course-title">Class 11<sup>th</sup> & 12<sup>th</sup></div>
+          <ul class="course-desc">
+            <li>Physics</li><li>Chemistry</li>
+            <li>Biology</li><li>Mathematics</li>
+          </ul>
+          <span class="course-btn">Explore Now</span>
+        </div>
+        <div class="course-right">
+          <div class="course-img">
+            <img src="assets\science 11 and 12th.jpeg">
+          </div>
+        </div>
+      </div>
+
+      <div class="course-card card-curricular" style="background: #ffe7b5 !important;">
+        <div class="course-left">
+          <div class="course-level">College Students</div>
+          <div class="course-title">B.Com / B.Com (Hons) / BBA</div>
+          <ul class="course-desc two-column-list">
+            <li>Financial Accounting</li><li>Corporate Accounting</li>
+            <li>Business Mathematics</li><li>Statistics</li>
+            <li>Income Tax</li><li>Auditing</li>
+            <li>Cost Accounting</li><li>Management Accounting</li>
+          </ul>
+          <span class="course-btn">Explore Now</span>
+        </div>
+        <div class="course-right">
+          <div class="course-img">
+            <img src="assets\college students courses.jpg">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Students Say</h2>
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+
+                            <div class="col-md-4 text-center">
+                                <img src="assets\pic\review 4.jpg" class="rounded-circle mb-3" alt="Gaurav Dagar"
+                                    width="80" height="80">
+                                <p>“Rathore Extra Classes helped me score <strong>95% in Class 10</strong>! The teachers
+                                    explain every doubt clearly.”</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                                <h6 class="mt-2">– Gaurav Dagar (Student)</h6>
+                            </div>
+
+                             <div class="col-md-4 text-center">
+                                <img src="assets\pic\review 5.jpg" class="rounded-circle mb-3"
+                                    alt="Preeti Yadav ">
+                                <p>“The small batch size gave me <strong>personal attention</strong>. I gained
+                                    confidence in Mathematics and Science.”</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                                <h6 class="mt-2">– Preeti Yadav (Student)</h6>
+                            </div>
+
+                            <div class="col-md-4 text-center">
+                                <img src="assets\LOKESH SIR OFFICE.jpeg" class="rounded-circle mb-3"
+                                    alt="Lokesh">      
+                                <p>“My son improved his grades drastically. The <strong>regular tests</strong> and
+                                    guidance worked wonders.”</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐☆</div>
+                                <h6 class="mt-2">– Lokesh (Parent)</h6>
+                            </div>
+
+                           
+
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+
+                            <div class="col-md-4 text-center">
+                                <img src="assets\pic\review 3.jpg" class="rounded-circle mb-3" alt="Amit Singh">
+                                <p>“The doubt-solving sessions cleared all my concepts. I feel confident before exams.”
+                                </p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                                <h6 class="mt-2">– Amit Singh (Student)</h6>
+                            </div>
+
+                            <div class="col-md-4 text-center">
+                                <img src="assets\pic\review 2.jpg" class="rounded-circle mb-3"
+                                    alt="Sneha Gupta">
+                                <p>“Affordable fees and top-quality teaching – best coaching in town!”</p>
+                                <div class="text-warning">⭐⭐⭐⭐⭐</div>
+                                <h6 class="mt-2">– Sneha Gupta (Student)</h6>
+                            </div>
+
+                            <div class="col-md-4 text-center">
+                                <img src="" class="rounded-circle mb-3" alt="Ravi Mehta">
+                                <p>“Regular tests helped me track my progress and improve step by step.”</p>
+                                <div class="text-warning">⭐⭐⭐⭐☆</div>
+                                <h6 class="mt-2">– Ravi Mehta (Student)</h6>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+<section class="contact-section">
+    <div class="contact-container">
+
+        <!-- LEFT SIDE : GOOGLE MAP -->
+        <div class="map" id="location">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.500861994279!2d77.08150077456482!3d28.434314293056154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19bf3b121143%3A0xc13b1f1fc271ea8!2sRathore%20Extra%20Classes!5e0!3m2!1sen!2sin!4v1765797284787!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- RIGHT SIDE : GLASS FORM -->
+        <div class="contact-form" id="contact">
+            <h2>Contact Us</h2>
+            <p>We will get back to you shortly.</p>
+
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="text" placeholder="Phone Number" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- LOGO + ABOUT -->
+        <div class="footer-col">
+            <img src="assets/RathoreExtraClassesLogo-removebg-preview.png" class="footer-logo">
+            <h2>Rathore Extra Classes</h2>
+            <p>Your trusted coaching institute providing quality education, 
+               exam preparation & personal mentorship.</p>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#menu">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </div>
+
+        <!-- ADDRESS & CONTACT -->
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-location-dot"></i>  
+               H.No 229, Wazirabad,
+                        Sector-52 Gurgaon Haryana -122001</p>
+
+            <p><i class="fa-solid fa-phone"></i>  
+               +91 9625145845</p>
+
+            <p><i class="fa-solid fa-envelope"></i>  
+               rathoreprince488@gmail.com</p>
+            <p><i class="fa-solid fa-clock"></i>Mon-Sat: 9am-9pm</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Rathore Extra Classes. All Rights Reserved.
+    </div>
+</footer>
+<script>
+    function toggleMenu(){
+    document.getElementById("menu").classList.toggle("active");
+}
+    const photos = [
+      "assets//slider2 img.jpg",
+
+      "assets//slider3.png",
+      "assets//slider4.png",
+      "assets//slider1 img.jpg"
+    ];
+
+    // matching captions and sublines for each image
+    const captions = [
+      { title: "Confidence, clarity, results — Rathore Extra Classes", sub: "Turn confusion into confidence Focused practice, expert teachers, measurable improvement." },
+
+      { title: "Need Better Grades? Try a Free Demo", sub: "Limited seats open for new batches. Call/WhatsApp to reserve your seat today." }
+    ];
+
+    let i = 0;
+    const imgEl = document.getElementById('pic');
+    const captionEl = document.getElementById('caption');
+    const sublineEl = document.getElementById('subline');
+    const slider = document.getElementById('slider');
+
+    // set initial caption
+    function setCaption(index) {
+      // update text
+      captionEl.textContent = captions[index].title;
+      sublineEl.textContent = captions[index].sub;
+
+      // restart animation by toggling classes
+      captionEl.classList.remove('caption-animate');
+      sublineEl.classList.remove('subline-animate');
+
+      // forcing reflow to restart animation
+      void captionEl.offsetWidth;
+
+      captionEl.classList.add('caption-animate');
+      sublineEl.classList.add('subline-animate');
+    }
+
+    function showIndex(index) {
+      i = (index + photos.length) % photos.length;
+      imgEl.src = photos[i];
+      setCaption(i);
+    }
+
+    function next() {
+      showIndex(i + 1);
+    }
+
+    function prev() {
+      showIndex(i - 1);
+    }
+
+    // initial
+    setCaption(i);
+
+    // auto slide with pause on hover
+    let auto = setInterval(next, 3000);
+
+    slider.addEventListener('mouseenter', () => {
+      clearInterval(auto);
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      clearInterval(auto);
+      auto = setInterval(next, 3000);
+    });
+
+    // ensure caption syncs if image loads slowly (optional)
+    imgEl.addEventListener('load', () => {
+      // fade-in handled by caption animation; nothing extra required now
+    });
+
+    
+</script>
+</body>
+
+</html>
